@@ -1,0 +1,56 @@
+* {
+	cursor: url('images/cursor.png'), auto;
+}
+body {
+  background-image: url('images/subway.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  padding: 3em;
+  cursor: url('images/cursor.png'), auto;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+#skater {
+	color: cyan;
+}
+
+#grandpa {
+	color: yellow;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#some-rad-content {
+	margin-top: 6em;
+}
+
+#some {
+	color: #00ff00;  /* bright green */
+}
+
+#rad {
+	color: white;
+	background-color: red
+}
+
+#content {
+	color: #9900ff;  /* magenta */
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content-list mark {
+	color: white;
+	background-color: #0000ff;  /* lapis */
+}
