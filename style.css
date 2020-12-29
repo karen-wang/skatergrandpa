@@ -1,6 +1,3 @@
-* {
-	cursor: url('images/cursor.png'), auto;
-}
 body {
   background-image: url('images/subway.jpg');
   background-repeat: no-repeat;
@@ -53,4 +50,28 @@ ul {
 #content-list mark {
 	color: white;
 	background-color: #0000ff;  /* lapis */
+}
+
+#get-in-touch {
+	margin-top: 6em;
+	color: #00ff00;  /* bright green */
+}
+
+#email {
+	color: white;
+	background-color: #ff00ff;  /* hot pink */
+}
+
+a {
+	outline : none;
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: url('images/cursor.png'), auto;
+}
+
+a mark:hover {
+	cursor: url('images/cursor.png'), auto;
+	box-shadow: 10px 10px black;
 }
