@@ -1,10 +1,8 @@
-numBackgroundImages = 12;
-let idx = 0;
-
-function changeBackground() {
-	idx = (idx + 1) % numBackgroundImages;
-	imgNum = idx + 1;
-   document.getElementById("gallery").style.backgroundImage = "url(images/gallery/" + imgNum  + ".jpg)";
+function preloadImages(images) {
+	for (image in images) {
+		var img = new Image();
+    	img.src = image.url;
+	}
 }
 
 function changeColors(images) {
@@ -13,16 +11,18 @@ function changeColors(images) {
         if (i >= images.length){
             i = 0;
         }
-        document.getElementById("retro-tv").style.backgroundImage = "url(" + images[i].image + ")";
+        document.getElementById("retro-tv").style.backgroundImage = "url(" + images[i].url + ")";
         setTimeout(doNext, images[i++].delay);
     }
     doNext();
 }
 
 window.onload = function() {
-    changeColors([{image : "images/gallery/1.jpg", delay : 400},
-             {image : "images/gallery/2.jpg", delay : 500},
-             {image : "images/gallery/3.jpg", delay : 700},
-             {image : "images/gallery/4.jpg", delay : 500},
-             {image : "images/gallery/5.jpg", delay : 700}]);
+	var images = [{url : "images/gallery/1.jpg", delay : 400},
+             {url : "images/gallery/2.jpg", delay : 500},
+             {url : "images/gallery/3.jpg", delay : 700},
+             {url : "images/gallery/4.jpg", delay : 500},
+             {url : "images/gallery/5.jpg", delay : 700}];
+	preloadImages(images);
+    changeColors(images);
 };
