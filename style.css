@@ -11,7 +11,8 @@ body {
 }
 
 #gallery {
-	cursor: url('images/finger.png'), auto;
+	background-image: url('images/sky.jpg');
+	background-color: #212121;  /* dark gray */
 }
 
 h1 {
@@ -86,9 +87,17 @@ a mark:hover {
 	box-shadow: 10px 10px black;
 }
 
-#gallery-frame {
+/*#gallery-frame {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
+}*/
+
+#gallery-screen {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	border-radius: 30px;
 }
