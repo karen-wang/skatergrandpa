@@ -13,7 +13,7 @@ function changeColors(images) {
         if (i >= images.length){
             i = 0;
         }
-        document.getElementById("gallery-screen").src = images[i].image;
+        document.getElementById("retro-tv").style.backgroundImage = "url(" + images[i].image + ")";
         setTimeout(doNext, images[i++].delay);
     }
     doNext();

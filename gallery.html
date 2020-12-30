@@ -13,6 +13,23 @@
     <h1>
       <a href="index.html"><span class="skater">sk8ter</span><span class="grandpa"> grandpa</span></a>
     </h1>
-    <img id="gallery-screen" src="images/gallery/1.jpg">
+
+
+    <div id="retro-tv"></div>
+
+    <!--     https://medium.com/@nikolskayaolia/an-easy-way-to-implement-smooth-shapes-such-as-superellipse-and-squircle-into-a-user-interface-a5ba4e1139ed -->
+    <svg>
+      <clipPath id="retroClip">
+        <path stroke="none" d="
+          M 0,150
+          C 0,0 0,0 250,0
+          S 500,0 500,150
+            500,300 250,300
+            0,300 0,150
+        ">
+        </path>
+      </clipPath>
+    </svg>
+
   </body>
 </html>
