@@ -18,11 +18,11 @@ h1 {
 	font-size: 4em;
 }
 
-#skater {
+.skater {
 	color: cyan;
 }
 
-#grandpa {
+.grandpa {
 	color: yellow;
 }
 
@@ -84,4 +84,11 @@ a:hover {
 a mark:hover {
 	cursor: url('images/cursor.png'), auto;
 	box-shadow: 10px 10px black;
+}
+
+#gallery-frame {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
