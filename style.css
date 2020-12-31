@@ -112,14 +112,15 @@ svg {
 }
 
 @media only screen and (max-width: 600px) {
-  .web {
+  body {
+  	background-image: none;
+  }
+
+  body * {
   	display: none;
   }
   .mobile {
   	display: block;
-  }
-  body {
-  	background-image: none;
   	background-color: white;
   	font-family: 'myComicSans';
   	font-size: 2em;
