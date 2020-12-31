@@ -101,3 +101,22 @@ svg {
   margin-right: auto;
   margin-left: auto;
 }
+
+.mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .web {
+  	display: none;
+  }
+  .mobile {
+  	display: block;
+  }
+  body {
+  	background-image: none;
+  	background-color: white;
+  	font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  	font-size: 2em;
+  }
+}
