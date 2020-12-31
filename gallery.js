@@ -17,7 +17,7 @@ function changeImages(images) {
     doNext();
 }
 
-var images = [{url : "images/gallery/1.jpg", delay : 400},
+var images = [{url : "images/gallery/static.gif", delay : 400},
              {url : "images/gallery/2.jpg", delay : 500},
              {url : "images/gallery/3.jpg", delay : 700},
              {url : "images/gallery/4.jpg", delay : 500},
