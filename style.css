@@ -11,8 +11,7 @@ body {
 }
 
 #gallery {
-	background-image: url('images/sky.jpg');
-	background-color: #212121;  /* dark gray */
+/*	background-image: url('images/sky.jpg');*/
 }
 
 h1 {
@@ -98,8 +97,8 @@ svg {
   background-image: url('images/gallery/1.jpg');
   background-size: cover;
   clip-path: url(#retroClip);
-  margin-right: auto;
-  margin-left: auto;
+/*  margin-right: auto;
+  margin-left: auto;*/
 }
 
 .mobile {
@@ -110,6 +109,7 @@ svg {
   font-family: myComicSans;
   src: url(COMIC.TTF);
 }
+
 
 @media only screen and (max-width: 600px) {
   body {
